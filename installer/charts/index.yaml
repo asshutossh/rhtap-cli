@@ -1,3 +1,19 @@
 apiVersion: v1
-entries: {}
-generated: "2025-02-06T14:41:17.885808+01:00"
+entries:
+  rhtap-tpa:
+  - apiVersion: v2
+    appVersion: 1.2.2
+    created: "2025-02-06T14:51:52.402962+01:00"
+    dependencies:
+    - condition: trustedProfileAnalyzer.enabled
+      name: redhat-trusted-profile-analyzer
+      repository: ""
+      version: 0.2.2
+    description: RHTAP Trusted Profile Analyzer
+    digest: cf4232b0f4898d41e382cc44af821f74021336ba8bb4d32d7116e3b38b6affaf
+    name: rhtap-tpa
+    type: application
+    urls:
+    - https://github.com/asshutossh/rhtap-cli/tree/main/installer/charts/rhtap-tpa-1.4.0.tgz
+    version: 1.4.0
+generated: "2025-02-06T14:51:52.396108+01:00"
